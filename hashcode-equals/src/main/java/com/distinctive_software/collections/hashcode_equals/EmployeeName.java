@@ -73,9 +73,9 @@ public class EmployeeName {
 	/* (non-Javadoc)
 	 * @see java.lang.Object#hashCode()
 	 */
-//	@Override
-//	public int hashCode() {
-//		return HashCodeBuilder.reflectionHashCode(this);
-//	}
+	@Override
+	public int hashCode() {
+		return HashCodeBuilder.reflectionHashCode(this);
+	}
 
 }
